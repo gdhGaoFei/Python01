@@ -27,3 +27,6 @@ def my_func_list_int(list1, num):
 
 result = my_func_list_int((2, 4, 5, 1, 6), 4)
 print(result)
+
+
+
