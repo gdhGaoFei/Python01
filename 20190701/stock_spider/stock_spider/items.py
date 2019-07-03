@@ -12,3 +12,15 @@ class StockSpiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class StockThsItem(scrapy.Item):
+    # define the fields for your item here like:
+    names = scrapy.Field()
+    sexes = scrapy.Field()
+    ages = scrapy.Field()
+    codes = scrapy.Field()
+    leaders = scrapy.Field()
+
+
+
