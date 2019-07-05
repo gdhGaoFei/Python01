@@ -46,6 +46,85 @@ print(response.closed)
 """
 urllib.parse 模块 对url编解码
 """
+from urllib import parse
+import simplejson
+from urllib.parse import urlencode
+
+
+d = {"url": 'http://www.magedu.com/python',
+     "p_url": 'http://www.magedu.com/python?id=1&name=张三'}
+u = parse.urlencode(d)
+print(u)
+
+params = {"wd": "中"}  # 编码
+u_1 = parse.urlencode(params)
+url = "http://www.baidu.com/s?{}".format(u_1)
+print(url)
+
+print('中'.encode('utf-8'))
+
+print(parse.unquote(u_1))  # 解码
+print(parse.unquote(url))
+
+"""
+提交请求 - GET和POST请求
+"""
+keyword = input(">> 请输入搜索关键字:")
+data = urlencode({
+    'q': keyword
+})
+base_url = "http://cn.bing.com/search"
+url_1 = "{}?{}".format(base_url, data)
+print(url_1)
+
+# 伪装 -
+ua_url = random.choice(ua_list)
+request = Request(url_1, headers={"User-agent": ua_url})
+response = urlopen(request)
+with response:
+    with open("bing.html", "wb") as f:
+        f.write(response.read())
+print("成功")
+
+
+# POST请求 http://httpbin.org
+url_post = "http://httpbin.org/post"
+request_post = Request(url_post)
+request_post.add_header(
+    "User-agent", "User-Agent:Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;"
+)
+data = urlencode({'name': "张三,@=/&*", 'age': '6'})
+print(data)
+response_post = urlopen(request_post, data=data.encode())  # POST方法，Form提交数据
+with response_post:
+    data_re = response_post.read()
+    print(data_re)
+    dict1 = simplejson.loads(data_re)
+    print(type(dict1))
+    print(dict1)
+
+
+
+
+"""
+robots协议
+淘宝：http://www.taobao.com
+"""
+
+"""
+AJAX
+"""
+
+
+import urllib3
+
+with urllib3.PoolManager() as http:
+    http.urlopen()
+    http.request()
+
+
+
+
 
 
 
