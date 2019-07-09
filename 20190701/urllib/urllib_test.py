@@ -119,8 +119,12 @@ AJAX
 import urllib3
 
 with urllib3.PoolManager() as http:
-    http.urlopen()
-    http.request()
+    response = http.request("GET", url=url_1, headers={
+        'User-agent': ua
+    })
+    print(type(response))
+    print(response.status)
+    print(response.data)
 
 
 
