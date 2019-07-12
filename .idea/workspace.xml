@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660894dd-47b5-42e7-b67e-860ff22b5591" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/20190701/urllib/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/20190701/urllib/t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20190701/urllib/t2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,44 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190701/urllib/urllib_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20190701/urllib/t1.py">
+        <entry file="file://$PROJECT_DIR$/20190701/urllib/t2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190701/stock_spider/stock_spider/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -92,11 +60,12 @@
         <option value="$PROJECT_DIR$/20190701/test_test/test_xiaomage.py" />
         <option value="$PROJECT_DIR$/20190701/urllib/urllib_test.py" />
         <option value="$PROJECT_DIR$/20190701/urllib/t1.py" />
+        <option value="$PROJECT_DIR$/20190701/urllib/t2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="889" />
+    <option name="x" value="1053" />
     <option name="y" value="23" />
     <option name="width" value="866" />
     <option name="height" value="1057" />
@@ -161,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.t1">
+  <component name="RunManager" selected="Python.t2">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,27 +152,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scrapy_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20190701/scrapy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20190701/scrapy/scrapy_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +165,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20190701/urllib/t1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20190701/urllib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20190701/urllib/t2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t2" />
         <item itemvalue="Python.t1" />
         <item itemvalue="Python.urllib_test" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test_xiaomage" />
-        <item itemvalue="Python.scrapy_test" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +269,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="889" y="23" width="866" height="1057" extended-state="0" />
+    <frame x="1053" y="23" width="866" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992272" weight="0.41656804" />
@@ -308,38 +277,19 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007728" side_tool="true" weight="0.2488226" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49921507" weight="0.32914925" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4945055" visible="true" weight="0.37409326" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4945055" weight="0.37409326" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921507" weight="0.3987261" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49843013" weight="0.3284974" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.44583988" weight="0.32642487" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50549453" side_tool="true" weight="0.32914925" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49529043" weight="0.3284974" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4976452" weight="0.3284974" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992272" weight="0.37170595" />
-      <window_info id="Structure" order="1" sideWeight="0.5007728" side_tool="true" weight="0.2488226" />
-      <window_info id="Favorites" order="2" sideWeight="0.5007728" side_tool="true" weight="0.2488226" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49921507" weight="0.32914925" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4945055" visible="true" weight="0.24455959" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921507" weight="0.39888424" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49843013" weight="0.3284974" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49529043" weight="0.3284974" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.44583988" weight="0.3284974" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.44583988" weight="0.32642487" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50549453" side_tool="true" weight="0.32914925" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4976452" weight="0.3284974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -441,13 +391,13 @@
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="3610" column="22" lean-forward="true" selection-start-line="3610" selection-start-column="22" selection-end-line="3610" selection-end-column="22" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/twisted/protocols/test/test_tls.py">
@@ -512,16 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190701/stock_spider/stock_spider/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -529,27 +469,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190701/urllib/urllib_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3/request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        <state relative-caret-position="915">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20190701/urllib/t1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-end-line="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190701/stock_spider/stock_spider/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190701/urllib/urllib_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190701/urllib/t2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
